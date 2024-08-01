@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family:'roboto-mono';
+    src: url(../fonts/static/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-mono-bold';
+    src: url(../fonts/static/RobotoMono-Bold.ttf);
+}
+
+#header {
+    padding: 2%;
+    background-color: #F7B5CA; 
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline dotted ;
+    font-weight: bold;
+    font-size: large;
+}
+
+section p {
+    font-size: small;
+}
+
+footer p {
+    text-align: justify;
+    font-weight: 100;
+}
+
+#conteudo{
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'roboto-mono';
+    color: #8E3E63;
+}
+
+#navigator {
+    margin: 0%;
+    background-color: #FFC6C6; 
+    padding: 0.5%;
+}
+
+#main {
+    margin: 0%;
+    background-color: #FFC6C6;
+    padding: 1%;
+    overflow: hidden;
+}
+
+#footer {
+    padding: 2%;
+    background-color: #F7B5CA;
+    margin: 0%;
+    font-size: small;
+    font-weight: bold;
+}
+
+article {
+    background-color: #F7B5CA; 
+    vertical-align: top;
+    padding: 1%;
+}
+
+#visivel {
+    width: 50%;
+    height: 15%; 
+    margin: 0 auto;  
+}
+
+article.cartela {
+    display: inline-block;
+    width: 40%;
+    height: 15%; 
+    margin: 1%;
+}
+
+figure {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+img.index {
+    border: 5px #F0A8D0 solid;
+    border-radius: 10%;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+html {
+    background-color: #FFEBD4;
+}
+
+p.col {
+    columns: 2; /*determinando uma número de colunas.*/
+    column-gap: 2%; /*criando uma distância entre as colunas (um espaço entre elas).*/
+    column-rule: 2px #F0A8D0 solid; /*criando uma separação entre as colunas.*/
+
+}
+
+div img {
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+}
+
+#caixa { /* caixa com shadow */
+    width: 100px;
+    height: 100px;
+    background-color: #F0A8D0;
+    border-radius: 25px;
+    margin: 2%;
+    box-shadow: 10px 10px #9f708a;
+    text-align: center;
+}
+
+#texto { /* texto com configuração diferente (feia).*/
+    font-family: verdana;
+    font-size: 20pt;
+    color: #F0A8D0;
+    text-shadow: 1px 1px 2px #431c78, 0 0 5px #bea0e9, 0 0 25px #F0A8D0; 
+
+}
+
+h1 {
+    font-weight: 100;
+    color: #694F8E;
+}
+
+h3 {
+    color: #8E3E63;
+}
+
+p {
+    color: #8E3E63;
+}
+
+h6 {
+    margin: 0;
+}
