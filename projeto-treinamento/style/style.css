@@ -1,60 +1,59 @@
-
-@font-face {
+@font-face { /* FONTE EXTERNA */
     font-family:'roboto-mono';
     src: url(../fonts/static/RobotoMono-Regular.ttf);
 }
 
-@font-face {
+@font-face { /* FONTE EXTERNA */
     font-family: 'roboto-mono-bold';
     src: url(../fonts/static/RobotoMono-Bold.ttf);
 }
 
-#header {
+#header { /* ID */
     padding: 2%;
     background-color: #F7B5CA; 
     text-align: center;
 }
 
-nav a {
+nav a { /**/
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover { /* PSEUDO-CLASSE */
     text-decoration: underline dotted ;
     font-weight: bold;
     font-size: large;
 }
 
-section p {
+section p { /**/
     font-size: small;
 }
 
-footer p {
+footer p { /**/
     text-align: justify;
     font-weight: 100;
 }
 
-#conteudo{
+#conteudo{ /* ID */
     font-size: 15pt;
     text-align: center;
     font-family: 'roboto-mono';
     color: #8E3E63;
 }
 
-#navigator {
+#navigator { /* ID */
     margin: 0%;
     background-color: #FFC6C6; 
     padding: 0.5%;
 }
 
-#main {
+#main { /* ID */
     margin: 0%;
     background-color: #FFC6C6;
     padding: 1%;
     overflow: hidden;
 }
 
-#footer {
+#footer { /* ID */
     padding: 2%;
     background-color: #F7B5CA;
     margin: 0%;
@@ -62,32 +61,38 @@ footer p {
     font-weight: bold;
 }
 
-article {
+article { /* ELEMENTO */
     background-color: #F7B5CA; 
-    vertical-align: top;
     padding: 1%;
 }
 
-#visivel {
+#visivel { /* ID */
     width: 50%;
     height: 15%; 
     margin: 0 auto;  
 }
 
-article.cartela {
-    /*display: inline-block;*/
-    width: 40%;
+article.cartela { /* CLASSE */
+    display: inline-block;
+    width: 35%;
     height: 15%; 
-    margin: 0 auto;  ;
+    margin: 0%;  
+    vertical-align: top;
+    margin: 20px;
 }
 
-figure {
+figure { /* ELEMENTO */
     text-align: center;
     display: inline-block;
     padding: 20px;
 }
 
-img.index {
+div>figure { /*PAI E FILHO*/
+    width: 45%;
+    margin: 0%;
+}
+
+img.index { /* CLASSE */
     border: 5px #F0A8D0 solid;
     border-radius: 10%;
     padding: 5px;
@@ -95,25 +100,51 @@ img.index {
     height: 50%;
 }
 
-html {
+img.poster { /* CLASSE */
+    border:5px #F0A8D0 solid;
+    width: 25%;
+    height: 25%;
+}
+
+*[src*="the-boys"] { /* SELETOR */
+    width: 45%;
+    height: 45%;
+    border:5px #F0A8D0 solid;
+}
+
+section>img { /*PAI E FILHO*/
+    width: 15%;
+    height: 15%;
+}
+
+footer>img { /*PAI E FILHO*/
+    width: 5%;
+    height: 5%;
+}
+
+footer>p {
+    margin: 0;
+}
+
+html { /* ELEMENTO */
     background-color: #FFEBD4;
 }
 
-p.col {
+p.col { /* COLUNA */
     columns: 2; /*determinando uma número de colunas.*/
     column-gap: 2%; /*criando uma distância entre as colunas (um espaço entre elas).*/
     column-rule: 2px #F0A8D0 solid; /*criando uma separação entre as colunas.*/
 
 }
 
-div img {
+*[src*="julia-simão"] { /* SELETOR */
     margin-top: 5%;
     width: 90%;
     height: 90%;
     border-radius: 25px;
 }
 
-#caixa { /* caixa com shadow */
+#caixa { /* SHADOW */
     width: 100px;
     height: 100px;
     background-color: #F0A8D0;
@@ -124,7 +155,7 @@ div img {
     margin: auto;
 }
 
-#texto { /* texto com configuração diferente (feia).*/
+#texto { /* SHADOW */
     font-family: verdana;
     font-size: 20pt;
     color: #F0A8D0;
@@ -132,19 +163,23 @@ div img {
 
 }
 
-h1 {
+h1 { /* ELEMENTO */
     font-weight: 100;
     color: #694F8E;
 }
 
-h3 {
+h3 { /* ELEMENTO */
     color: #8E3E63;
 }
 
-p {
+p { /* ELEMENTO */
     color: #8E3E63;
 }
 
-h6 {
+h6 { /* ELEMENTO */
     margin: 0;
+}
+
+*  tr td:hover { /* SELETOR E PSEUDO-CLASSE*/
+    background-color: #cca0e9;
 }
