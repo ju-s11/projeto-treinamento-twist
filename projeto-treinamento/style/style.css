@@ -75,10 +75,10 @@ article {
 }
 
 article.cartela {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 40%;
     height: 15%; 
-    margin: 1%;
+    margin: 0 auto;  ;
 }
 
 figure {
@@ -121,6 +121,7 @@ div img {
     margin: 2%;
     box-shadow: 10px 10px #9f708a;
     text-align: center;
+    margin: auto;
 }
 
 #texto { /* texto com configuração diferente (feia).*/
