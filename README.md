@@ -2,6 +2,7 @@ projeto final do treinamento da TWIST-2024.
 
 descrição do exercício:
 - fazer um site de 3 páginas.
+
 requisitos:
 - lista;
 - tabela;
